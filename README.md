@@ -69,6 +69,12 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
       <td align="center" style="border: none;">
         <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/STM32_Logo.png" width="50" height="50" alt="STM32"/><br>STM32
       </td>
+      <td align="center" style="border: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" width="50" height="50" alt="Arduino"/><br>Arduino
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/BeagleBoard.org_Logo.svg" width="50" height="50" alt="Beaglebone"/><br>Beaglebone
+      </td>
     </tr>
   </tbody>
 </table>
@@ -84,9 +90,6 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
     <tr>
       <td align="center" style="border: none;">
         <img src="https://www.vectorlogo.zone/logos/mqtt/mqtt-icon.svg" width="50" height="50" alt="MQTT"/><br>MQTT
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://www.vectorlogo.zone/logos/opcfoundation/opcfoundation-icon.svg" width="50" height="50" alt="OPC UA"/><br>OPC UA
       </td>
       <td align="center" style="border: none;">
         <img src="https://www.vectorlogo.zone/logos/zigbee/zigbee-icon.svg" width="50" height="50" alt="Zigbee"/><br>Zigbee
