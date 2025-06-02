@@ -73,7 +73,7 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
         <img src="https://upload.wikimedia.org/wikipedia/fr/3/3b/Raspberry_Pi_logo.svg" width="50" height="50" alt="Raspberry Pi"/><br>RPi
       </td>
       <td align="center" style="border: none;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/STM32_Logo.png" width="50" height="50" alt="STM32"/><br>STM32
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/STMicroelectronics-Logo.svg" width="50" height="50" alt="STM32"/><br>STM32
       </td>
     </tr>
   </tbody>
