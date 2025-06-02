@@ -67,7 +67,7 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
         <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="50" height="50" alt="Arduino"/><br>Arduino
       </td>
       <td align="center" style="border: none;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Espressif_Logo.svg" width="50" height="50" alt="ESP32"/><br>ESP32
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/ESP32_Espressif_ESP-WROOM-32_Shielded.jpg" width="50" height="50" alt="ESP32"/><br>ESP32
       </td>
       <td align="center" style="border: none;">
         <img src="https://upload.wikimedia.org/wikipedia/fr/3/3b/Raspberry_Pi_logo.svg" width="50" height="50" alt="Raspberry Pi"/><br>RPi
