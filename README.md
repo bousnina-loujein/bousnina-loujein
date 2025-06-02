@@ -54,26 +54,17 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
 
 <h3 align="center">Embedded Development</h3>
 
+<h4 align="center">Microcontrollers & Hardware</h4>
+
 <div align="center">
 <table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
-  <thead>
-    <tr>
-      <th colspan="8" align="center" style="color: white;">Microcontrollers & Hardware</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td align="center" style="border: none;">
-        <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="50" height="50" alt="Arduino"/><br>Arduino
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" width="50" height="50" alt="Embedded C"/><br>Embedded C
-      </td>
       <td align="center" style="border: none;">
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Espressif_Logo.svg" width="50" height="50" alt="ESP32"/><br>ESP32
       </td>
       <td align="center" style="border: none;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Raspberry_Pi_Logo_2016.svg" width="50" height="50" alt="Raspberry Pi"/><br>RPi
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Raspberry_Pi_Logo_2016.svg" width="50" height="50" alt="Raspberry Pi"/><br>Raspberry Pi
       </td>
       <td align="center" style="border: none;">
         <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/STM32_Logo.png" width="50" height="50" alt="STM32"/><br>STM32
@@ -83,41 +74,12 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
 </table>
 </div>
 
-<div align="center">
-<table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
-  <thead>
-    <tr>
-      <th colspan="8" align="center" style="color: white;">Programming Languages</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center" style="border: none;">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="50" height="50" alt="C"/><br>C
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="50" height="50" alt="C++"/><br>C++
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50" alt="Python"/><br>Python
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="50" height="50" alt="Java"/><br>Java
-      </td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
 <h3 align="center">IoT Protocols</h3>
 
+<h4 align="center">Communication Protocols</h4>
+
 <div align="center">
 <table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
-  <thead>
-    <tr>
-      <th colspan="8" align="center" style="color: white;">Communication Protocols</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
       <td align="center" style="border: none;">
@@ -128,62 +90,6 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
       </td>
       <td align="center" style="border: none;">
         <img src="https://www.vectorlogo.zone/logos/zigbee/zigbee-icon.svg" width="50" height="50" alt="Zigbee"/><br>Zigbee
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://www.vectorlogo.zone/logos/bluetooth/bluetooth-icon.svg" width="50" height="50" alt="Bluetooth"/><br>BLE
-      </td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<h3 align="center">Cloud & DevOps</h3>
-
-<div align="center">
-<table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
-  <thead>
-    <tr>
-      <th colspan="8" align="center" style="color: white;">Technologies</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center" style="border: none;">
-        <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="50" height="50" alt="AWS IoT"/><br>AWS IoT
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" width="50" height="50" alt="Azure IoT"/><br>Azure IoT
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="50" height="50" alt="GCP IoT"/><br>GCP IoT
-      </td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<h3 align="center">Other Tools</h3>
-
-<div align="center">
-<table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
-  <thead>
-    <tr>
-      <th colspan="8" align="center" style="color: white;">Development Tools</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center" style="border: none;">
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="50" height="50" alt="Git"/><br>Git
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" width="50" height="50" alt="Docker"/><br>Docker
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" width="50" height="50" alt="MATLAB"/><br>MATLAB
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg" width="50" height="50" alt="Linux"/><br>Linux
       </td>
     </tr>
   </tbody>
