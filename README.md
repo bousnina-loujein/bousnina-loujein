@@ -106,8 +106,8 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
       </a>
     </td>
     <td align="center">
-      <a href="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=Tunisia-+216-XXXXXXXX&size=square" target="_blank">
-        <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=Tunisia-+216-XXXXXXXX&size=square" alt="WhatsApp" style="margin: 10px;">
+      <a href="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=Tunisia-+216-24411846&size=square" target="_blank">
+        <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=Tunisia-+216-24411846&size=square" alt="WhatsApp" style="margin: 10px;">
       </a>
     </td>
   </tr>
