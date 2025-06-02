@@ -54,45 +54,108 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
 
 <h3 align="center">Embedded Development</h3>
 
-<h4 align="center">Microcontrollers & Hardware</h4>
-
 <div align="center">
 <table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
+  <thead>
+    <tr>
+      <th colspan="8" align="center" style="color: white;">Microcontrollers & Hardware</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
+      <td align="center" style="border: none;">
+        <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="50" height="50" alt="Arduino"/><br>Arduino
+      </td>
       <td align="center" style="border: none;">
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Espressif_Logo.svg" width="50" height="50" alt="ESP32"/><br>ESP32
       </td>
       <td align="center" style="border: none;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Raspberry_Pi_Logo_2016.svg" width="50" height="50" alt="Raspberry Pi"/><br>Raspberry Pi
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Raspberry_Pi_Logo_2016.svg" width="50" height="50" alt="Raspberry Pi"/><br>RPi
       </td>
       <td align="center" style="border: none;">
         <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/STM32_Logo.png" width="50" height="50" alt="STM32"/><br>STM32
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" width="50" height="50" alt="Arduino"/><br>Arduino
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/BeagleBoard.org_Logo.svg" width="50" height="50" alt="Beaglebone"/><br>Beaglebone
       </td>
     </tr>
   </tbody>
 </table>
 </div>
 
-<h3 align="center">IoT Protocols</h3>
+<div align="center">
+<table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
+  <thead>
+    <tr>
+      <th colspan="8" align="center" style="color: white;">Programming Languages</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="border: none;">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="50" height="50" alt="C"/><br>C
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="50" height="50" alt="C++"/><br>C++
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="50" height="50" alt="Python"/><br>Python
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="50" height="50" alt="Java"/><br>Java
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-<h4 align="center">Communication Protocols</h4>
+<h3 align="center">IoT & Cloud</h3>
 
 <div align="center">
 <table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
+  <thead>
+    <tr>
+      <th colspan="8" align="center" style="color: white;">Technologies</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
       <td align="center" style="border: none;">
         <img src="https://www.vectorlogo.zone/logos/mqtt/mqtt-icon.svg" width="50" height="50" alt="MQTT"/><br>MQTT
       </td>
       <td align="center" style="border: none;">
-        <img src="https://www.vectorlogo.zone/logos/zigbee/zigbee-icon.svg" width="50" height="50" alt="Zigbee"/><br>Zigbee
+        <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="50" height="50" alt="AWS IoT"/><br>AWS IoT
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" width="50" height="50" alt="Azure IoT"/><br>Azure IoT
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="50" height="50" alt="GCP IoT"/><br>GCP IoT
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h3 align="center">Other Tools</h3>
+
+<div align="center">
+<table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
+  <thead>
+    <tr>
+      <th colspan="8" align="center" style="color: white;">Development Tools</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="border: none;">
+        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="50" height="50" alt="Git"/><br>Git
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://www.vectorlogo.zone/logos/docker/docker-icon.svg" width="50" height="50" alt="Docker"/><br>Docker
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" width="50" height="50" alt="MATLAB"/><br>MATLAB
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://www.vectorlogo.zone/logos/linux/linux-icon.svg" width="50" height="50" alt="Linux"/><br>Linux
       </td>
     </tr>
   </tbody>
@@ -109,8 +172,8 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
       </a>
     </td>
     <td align="center">
-      <a href="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=Tunisia-+216-24411846&size=square" target="_blank">
-        <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=Tunisia-+216-24411846&size=square" alt="WhatsApp" style="margin: 10px;">
+      <a href="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=Tunisia-+216-XXXXXXXX&size=square" target="_blank">
+        <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=siwhatsapp&subtitle=Tunisia-+216-XXXXXXXX&size=square" alt="WhatsApp" style="margin: 10px;">
       </a>
     </td>
   </tr>
