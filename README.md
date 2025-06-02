@@ -67,6 +67,9 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
         <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="50" height="50" alt="Arduino"/><br>Arduino
       </td>
       <td align="center" style="border: none;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/embeddedc/embeddedc-original.svg" width="50" height="50" alt="Embedded C"/><br>Embedded C
+      </td>
+      <td align="center" style="border: none;">
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Espressif_Logo.svg" width="50" height="50" alt="ESP32"/><br>ESP32
       </td>
       <td align="center" style="border: none;">
@@ -106,7 +109,35 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
 </table>
 </div>
 
-<h3 align="center">IoT & Cloud</h3>
+<h3 align="center">IoT Protocols</h3>
+
+<div align="center">
+<table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
+  <thead>
+    <tr>
+      <th colspan="8" align="center" style="color: white;">Communication Protocols</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" style="border: none;">
+        <img src="https://www.vectorlogo.zone/logos/mqtt/mqtt-icon.svg" width="50" height="50" alt="MQTT"/><br>MQTT
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://www.vectorlogo.zone/logos/opcfoundation/opcfoundation-icon.svg" width="50" height="50" alt="OPC UA"/><br>OPC UA
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://www.vectorlogo.zone/logos/zigbee/zigbee-icon.svg" width="50" height="50" alt="Zigbee"/><br>Zigbee
+      </td>
+      <td align="center" style="border: none;">
+        <img src="https://www.vectorlogo.zone/logos/bluetooth/bluetooth-icon.svg" width="50" height="50" alt="Bluetooth"/><br>BLE
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h3 align="center">Cloud & DevOps</h3>
 
 <div align="center">
 <table style="background-color: black; color: white; border: none; border-radius: 15px; overflow: hidden;">
@@ -117,9 +148,6 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
   </thead>
   <tbody>
     <tr>
-      <td align="center" style="border: none;">
-        <img src="https://www.vectorlogo.zone/logos/mqtt/mqtt-icon.svg" width="50" height="50" alt="MQTT"/><br>MQTT
-      </td>
       <td align="center" style="border: none;">
         <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="50" height="50" alt="AWS IoT"/><br>AWS IoT
       </td>
