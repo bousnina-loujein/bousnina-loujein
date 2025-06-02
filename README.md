@@ -118,7 +118,7 @@ Embedded Software Engineer | IoT Enthusiast | Hardware Tinkerer </p>
   <tbody>
     <tr>
       <td align="center" style="border: none;">
-        <img src="https://www.vectorlogo.zone/logos/mqtt/mqtt-icon.svg" width="50" height="50" alt="MQTT"/><br>MQTT
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Mqtt-hor.svg" width="50" height="50" alt="MQTT"/><br>MQTT
       </td>
       <td align="center" style="border: none;">
         <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="50" height="50" alt="AWS IoT"/><br>AWS IoT
