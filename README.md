@@ -16,23 +16,28 @@
 
 ### 🌐 Connect With Me  
 
-<p align="center">
-  <a href="mailto:majdoub.loujein1211@gmail.com">
-    <img src="https://img.icons8.com/fluency/48/gmail-new.png" width="55" height="55" alt="Gmail"/>
+<p align="center" style="font-size: 18px;">
+  <a href="mailto:majdoub.loujein1211@gmail.com" style="text-decoration: none; color: #A9A9A9;">
+    <img src="https://img.icons8.com/fluency/48/gmail-new.png" width="45" height="45" alt="Gmail"/>
+    <br><u>Email</u>
   </a>
-  &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/bousnina-loujein-5965a2194/">
-    <img src="https://img.icons8.com/fluency/48/linkedin.png" width="55" height="55" alt="LinkedIn"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/bousnina-loujein-5965a2194/" style="text-decoration: none; color: #A9A9A9;">
+    <img src="https://img.icons8.com/fluency/48/linkedin.png" width="45" height="45" alt="LinkedIn"/>
+    <br><u>LinkedIn</u>
   </a>
-  &nbsp;&nbsp;
-  <a href="https://www.instagram.com/loujein.bousnina/">
-    <img src="https://img.icons8.com/fluency/48/instagram-new.png" width="55" height="55" alt="Instagram"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.instagram.com/loujein.bousnina/" style="text-decoration: none; color: #A9A9A9;">
+    <img src="https://img.icons8.com/fluency/48/instagram-new.png" width="45" height="45" alt="Instagram"/>
+    <br><u>Instagram</u>
   </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/bousnina-loujein">
-    <img src="https://img.icons8.com/fluency/48/github.png" width="55" height="55" alt="GitHub"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/bousnina-loujein" style="text-decoration: none; color: #A9A9A9;">
+    <img src="https://img.icons8.com/fluency/48/github.png" width="45" height="45" alt="GitHub"/>
+    <br><u>GitHub</u>
   </a>
 </p>
+
 
 ---
 
