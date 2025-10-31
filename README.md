@@ -1,6 +1,6 @@
 <!-- Profile README for Loujein Bousnina -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=40C463&center=true&vCenter=true&width=600&lines=👋+Hi%2C+I'm+Loujein+Bousnina;🚀+Embedded+Systems+Engineer;💡+IoT+and+Firmware+Developer;⚙️+Passionate+about+Hardware-Software+Integration" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=A9A9A9&center=true&vCenter=true&width=600&lines=👋+Hi%2C+I'm+Loujein+Bousnina;🚀+Embedded+Systems+Engineer;💡+IoT+and+Firmware+Developer;⚙️+Passionate+about+Hardware-Software+Integration" alt="Typing SVG" />
 </p>
 
 ---
