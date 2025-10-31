@@ -34,7 +34,6 @@
   </a>
 </p>
 
-
 ---
 
 ### ⚙️ Tech Stack  
@@ -89,7 +88,7 @@
 ### 🏆 Achievements  
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bousnina-loujein&theme=darkhub&margin-w=15&margin-h=15" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=bousnina-loujein&theme=darkhub&column=3&margin-w=15&margin-h=15" alt="Trophies" />
 </p>
 
 ---
