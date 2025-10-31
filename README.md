@@ -17,10 +17,21 @@
 ### 🌐 Connect With Me  
 
 <p align="center">
-  <a href="mailto:majdoub.loujein1211@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/bousnina-loujein-5965a2194/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://www.instagram.com/loujein.bousnina/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="https://github.com/bousnina-loujein"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="mailto:majdoub.loujein1211@gmail.com">
+    <img src="https://img.icons8.com/fluency/48/gmail-new.png" width="45" height="45" alt="Gmail"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/bousnina-loujein-5965a2194/">
+    <img src="https://img.icons8.com/fluency/48/linkedin.png" width="45" height="45" alt="LinkedIn"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/loujein.bousnina/">
+    <img src="https://img.icons8.com/fluency/48/instagram-new.png" width="45" height="45" alt="Instagram"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/bousnina-loujein">
+    <img src="https://img.icons8.com/fluency/48/github.png" width="45" height="45" alt="GitHub"/>
+  </a>
 </p>
 
 ---
@@ -101,16 +112,6 @@
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bousnina-loujein&bg_color=0d1117&color=40C463&line=40C463&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" />
-</p>
-
----
-
 <h4 align="center">
 ⭐ From <a href="https://github.com/bousnina-loujein">Loujein Bousnina</a> | “Innovation starts where hardware meets software.”
 </h4>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" width="700" />
-</p>
