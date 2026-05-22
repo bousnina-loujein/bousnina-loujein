@@ -25,7 +25,7 @@
     <img src="https://img.icons8.com/fluency/48/linkedin.png" width="55" height="55" alt="LinkedIn"/>
   </a>
   &nbsp;&nbsp;
-  <a href="https://www.instagram.com/loujein.bousnina/">
+  <a href="https://www.instagram.com/loujein.bousnina1/">
     <img src="https://img.icons8.com/fluency/48/instagram-new.png" width="55" height="55" alt="Instagram"/>
   </a>
   &nbsp;&nbsp;
