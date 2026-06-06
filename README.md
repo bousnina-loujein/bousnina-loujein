@@ -70,24 +70,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" height="40"/>
 </p>
 
----
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=bousnina-loujein&show_icons=true&theme=github_dark&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=bousnina-loujein&layout=compact&theme=github_dark&hide_border=true" />
-</p>
----
-
-### 🏆 Achievements
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bousnina-loujein&theme=darkhub&no-frame=true&column=3&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-</p>
 
 ---
 
