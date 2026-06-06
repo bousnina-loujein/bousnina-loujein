@@ -75,14 +75,12 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bousnina-loujein&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub Stats" height="170" />
-  <img src="https://streak-stats.demolab.com?user=bousnina-loujein&theme=github-dark&hide_border=true" alt="GitHub Streak" height="170" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=bousnina-loujein&show_icons=true&theme=github_dark&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bousnina-loujein&layout=compact&theme=github_dark&hide_border=true" alt="Top Languages" height="150" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=bousnina-loujein&layout=compact&theme=github_dark&hide_border=true" />
 </p>
-
 ---
 
 ### 🏆 Achievements
