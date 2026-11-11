@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/banner.svg" alt="Loujein Bousnina, Full-Stack IoT Engineer at RondeGuard. An ESP32 routes traces to firmware, cloud, web and mobile." width="100%" />
+<img src="assets/banner.svg" alt="Loujein Bousnina, Full-Stack IoT Engineer. An ESP32 routes traces to firmware, cloud, web and mobile." width="100%" />
 </p>
 
 <p align="center">
@@ -17,5 +17,5 @@ I'm an engineer graduated from **ESPRIT** with a National Engineering Degree in 
 <br/>
 
 <p align="center">
-<img src="assets/tools.svg" alt="Languages and tools. Hardware and firmware: ESP32, STM32, C, C++, Arduino, Altium, NFC/RFID. Connectivity: MQTT, EMQX, Node-RED, Firebase. Backend, web and mobile: Node.js, NestJS, TypeScript, React, Flutter, MongoDB, Spring Boot. Deployment: Docker, Nginx, Linux, Jenkins." width="100%" />
+<img src="assets/tools.svg" alt="Languages and tools. Hardware: ESP32, STM32, Altium, NFC/RFID. Firmware: C, C++, Arduino, Arduino IDE, PlatformIO. Connectivity: MQTT, EMQX, Node-RED, Firebase. Backend: Node.js, Express.js, NestJS, TypeScript, MongoDB, Spring Boot. Web and mobile: React, React Native, Flutter. Deployment: Docker, Nginx, Linux, Jenkins." width="100%" />
 </p>
