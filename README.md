@@ -12,7 +12,7 @@
 <sub><b>PCB&nbsp;&nbsp;·&nbsp;&nbsp;FIRMWARE&nbsp;&nbsp;·&nbsp;&nbsp;CONNECTIVITY&nbsp;&nbsp;·&nbsp;&nbsp;CLOUD&nbsp;&nbsp;·&nbsp;&nbsp;WEB&nbsp;&nbsp;·&nbsp;&nbsp;MOBILE</b></sub>
 </p>
 
-I build connected products from the copper up. At **RondeGuard** I own the whole chain: the ESP32 terminal and its PCB, the secure MQTT link, the Node.js backend, the supervisor dashboard and the agent app. I graduated from **ESPRIT** in 2026 with a National Engineering Degree in Ambient and Mobile Embedded Systems (SLEAM).
+I'm an engineer graduated from **ESPRIT** with a National Engineering Degree in Ambient and Mobile Embedded Systems (SLEAM). Motivated and passionate about technology, embedded systems and innovation, I love turning ideas into connected products, from the PCB and firmware to the cloud and the apps people use every day. Today I'm a Full-Stack IoT Engineer at **RondeGuard**.
 
 <br/>
 
