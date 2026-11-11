@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="t d">
+  <title id="t">Loujein Bousnina, Full-Stack IoT Engineer</title>
+  <desc id="d">A circuit board: an ESP32 chip routes copper traces to four pads labelled firmware, cloud, dashboard and mobile.</desc>
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#F2F0E6" opacity=".07"/>
+    </pattern>
+    <style>
+      .silk{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#F2F0E6}
+      .mono{font-family:ui-monospace,'SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace}
+      .trace{fill:none;stroke:#C98A4B;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .pulse{fill:#FFE7A8;opacity:0;animation:run 3.6s ease-in-out infinite}
+      .p1{offset-path:path('M880 130 H920 L980 70 H1030')}
+      .p2{offset-path:path('M880 160 H940 L960 140 H1030');animation-delay:.45s}
+      .p3{offset-path:path('M880 190 H940 L960 210 H1030');animation-delay:.9s}
+      .p4{offset-path:path('M880 220 H920 L980 280 H1030');animation-delay:1.35s}
+      .p0{offset-path:path('M760 215 H735 L680 270 H70');animation-name:runback;animation-duration:3.6s}
+      @keyframes run{0%{offset-distance:0%;opacity:0}8%{opacity:1}55%{offset-distance:100%;opacity:1}62%,100%{offset-distance:100%;opacity:0}}
+      @keyframes runback{0%{offset-distance:0%;opacity:0}6%{opacity:.9}70%{offset-distance:100%;opacity:.9}76%,100%{offset-distance:100%;opacity:0}}
+      @media (prefers-reduced-motion: reduce){.pulse{animation:none;opacity:0}}
+    </style>
+  </defs>
+
+  <!-- board -->
+  <rect x="2" y="2" width="1196" height="336" rx="22" fill="#123F36" stroke="#0C2E27" stroke-width="4"/>
+  <rect x="2" y="2" width="1196" height="336" rx="22" fill="url(#grid)"/>
+  <g fill="#0A221D" stroke="#D9B45A" stroke-width="3">
+    <circle cx="34" cy="34" r="9"/><circle cx="1166" cy="34" r="9"/>
+    <circle cx="34" cy="306" r="9"/><circle cx="1166" cy="306" r="9"/>
+  </g>
+
+  <!-- identity -->
+  <text class="silk" x="70" y="132" font-size="58" font-weight="700" letter-spacing="-1">Loujein Bousnina</text>
+  <text class="silk" x="72" y="180" font-size="24" font-weight="600" fill="#D9B45A" style="fill:#D9B45A">Full-Stack IoT Engineer at RondeGuard</text>
+  <text class="silk" x="72" y="222" font-size="18" opacity=".78">I design the board, write the firmware, and ship the cloud and apps.</text>
+
+  <!-- trace back to the name -->
+  <path class="trace" d="M760 215 H735 L680 270 H70" opacity=".85"/>
+  <circle cx="70" cy="270" r="7" fill="#0A221D" stroke="#D9B45A" stroke-width="3"/>
+  <text class="silk mono" x="88" y="300" font-size="13" opacity=".55">Tunis, TN</text>
+  <text class="silk mono" x="180" y="300" font-size="13" opacity=".55">ESPRIT SLEAM 2026</text>
+
+  <!-- outbound traces -->
+  <path class="trace" d="M880 130 H920 L980 70 H1030"/>
+  <path class="trace" d="M880 160 H940 L960 140 H1030"/>
+  <path class="trace" d="M880 190 H940 L960 210 H1030"/>
+  <path class="trace" d="M880 220 H920 L980 280 H1030"/>
+
+  <g fill="#D9B45A">
+    <circle cx="1040" cy="70" r="11"/><circle cx="1040" cy="140" r="11"/>
+    <circle cx="1040" cy="210" r="11"/><circle cx="1040" cy="280" r="11"/>
+  </g>
+  <g fill="#123F36"><circle cx="1040" cy="70" r="4"/><circle cx="1040" cy="140" r="4"/><circle cx="1040" cy="210" r="4"/><circle cx="1040" cy="280" r="4"/></g>
+  <g class="silk" font-size="17" font-weight="600">
+    <text x="1062" y="76">firmware</text>
+    <text x="1062" y="146">cloud</text>
+    <text x="1062" y="216">dashboard</text>
+    <text x="1062" y="286">mobile</text>
+  </g>
+
+  <!-- ESP32 footprint -->
+  <g fill="#C98A4B">
+    <rect x="880" y="124" width="14" height="12" rx="2"/><rect x="880" y="154" width="14" height="12" rx="2"/>
+    <rect x="880" y="184" width="14" height="12" rx="2"/><rect x="880" y="214" width="14" height="12" rx="2"/>
+    <rect x="746" y="124" width="14" height="12" rx="2"/><rect x="746" y="154" width="14" height="12" rx="2"/>
+    <rect x="746" y="184" width="14" height="12" rx="2"/><rect x="746" y="209" width="14" height="12" rx="2"/>
+    <rect x="784" y="96" width="12" height="14" rx="2"/><rect x="814" y="96" width="12" height="14" rx="2"/><rect x="844" y="96" width="12" height="14" rx="2"/>
+    <rect x="784" y="230" width="12" height="14" rx="2"/><rect x="814" y="230" width="12" height="14" rx="2"/><rect x="844" y="230" width="12" height="14" rx="2"/>
+  </g>
+  <rect x="760" y="110" width="120" height="120" rx="6" fill="#1E2428" stroke="#2E363B" stroke-width="2"/>
+  <circle cx="776" cy="126" r="4" fill="#3A444A"/>
+  <text class="silk mono" x="820" y="176" font-size="18" font-weight="700" text-anchor="middle" opacity=".9">ESP32</text>
+  <text class="silk mono" x="820" y="198" font-size="11" text-anchor="middle" opacity=".5">WROOM</text>
+  <text class="silk mono" x="760" y="86" font-size="13" opacity=".6">U1</text>
+
+  <!-- signal pulses -->
+  <circle class="pulse p1" r="5"/><circle class="pulse p2" r="5"/>
+  <circle class="pulse p3" r="5"/><circle class="pulse p4" r="5"/>
+  <circle class="pulse p0" r="4"/>
+</svg>
