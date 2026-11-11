@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">RondeGuard architecture</title>
+  <desc id="d">Field terminal sends checkpoint scans over secure MQTT to the EMQX broker, then to the Node.js API and MongoDB, which feeds the React dashboard and the Flutter agent app.</desc>
+  <defs>
+    <pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="#F2F0E6" opacity=".06"/></pattern>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#C98A4B"/></marker>
+    <style>
+      .s{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#F2F0E6}
+      .h{font-size:19px;font-weight:700}
+      .b{font-size:14px;opacity:.72}
+      .m{font-family:ui-monospace,Consolas,'DejaVu Sans Mono',monospace;font-size:12px;fill:#D9B45A}
+      .n{fill:#18493F;stroke:#C98A4B;stroke-width:2}
+      .t{fill:none;stroke:#C98A4B;stroke-width:3;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect x="2" y="2" width="1196" height="296" rx="20" fill="#123F36" stroke="#0C2E27" stroke-width="4"/>
+  <rect x="2" y="2" width="1196" height="296" rx="20" fill="url(#g)"/>
+
+  <!-- nodes -->
+  <rect class="n" x="40" y="95" width="240" height="110" rx="10"/>
+  <text class="s h" x="60" y="132">Field terminal</text>
+  <text class="s b" x="60" y="158">ESP32, NFC reader, SIM800L</text>
+  <text class="s b" x="60" y="180">Custom PCB in Altium</text>
+
+  <rect class="n" x="335" y="95" width="240" height="110" rx="10"/>
+  <text class="s h" x="355" y="132">EMQX broker</text>
+  <text class="s b" x="355" y="158">MQTT over TLS, port 8883</text>
+  <text class="s b" x="355" y="180">Per-device credentials</text>
+
+  <rect class="n" x="630" y="95" width="240" height="110" rx="10"/>
+  <text class="s h" x="650" y="132">API and data</text>
+  <text class="s b" x="650" y="158">Node.js, Express, MongoDB</text>
+  <text class="s b" x="650" y="180">Docker Compose, Nginx</text>
+
+  <rect class="n" x="920" y="40" width="250" height="95" rx="10"/>
+  <text class="s h" x="938" y="76">Supervisor dashboard</text>
+  <text class="s b" x="938" y="102">React, Leaflet, Socket.IO</text>
+
+  <rect class="n" x="920" y="165" width="250" height="95" rx="10"/>
+  <text class="s h" x="938" y="201">Agent app</text>
+  <text class="s b" x="938" y="227">Flutter, FCM push, SOS</text>
+
+  <!-- traces -->
+  <path class="t" d="M280 150 H330" marker-end="url(#a)"/>
+  <path class="t" d="M575 150 H625" marker-end="url(#a)"/>
+  <path class="t" d="M870 150 H895 L895 87 H915" marker-end="url(#a)"/>
+  <path class="t" d="M870 150 H895 L895 212 H915" marker-end="url(#a)"/>
+  <circle cx="895" cy="150" r="5" fill="#D9B45A"/>
+
+  <text class="m" x="305" y="138" text-anchor="middle">scans</text>
+  <text class="m" x="600" y="138" text-anchor="middle">events</text>
+  </svg>
