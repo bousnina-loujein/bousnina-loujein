@@ -1,80 +1,177 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="t d">
-  <title id="t">Loujein Bousnina, Full-Stack IoT Engineer</title>
-  <desc id="d">A circuit board: an ESP32 chip routes copper traces to four pads labelled firmware, cloud, dashboard and mobile.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="277" viewBox="0 0 900 277" role="img" aria-labelledby="t d">
+  <title id="t">Loujein Bousnina — Full-Stack IoT Engineer at RondeGuard</title>
+  <desc id="d">PCB-style banner: an ESP32 chip routing signals to firmware, cloud, dashboard and mobile.</desc>
   <defs>
-    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="10" cy="10" r="1" fill="#F2F0E6" opacity=".07"/>
+    <!-- solder mask -->
+    <radialGradient id="mask" cx="30%" cy="35%" r="85%">
+      <stop offset="0" stop-color="#17543f"/>
+      <stop offset=".55" stop-color="#0f4433"/>
+      <stop offset="1" stop-color="#0a3327"/>
+    </radialGradient>
+    <pattern id="grid" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r=".8" fill="#2f7a5c" opacity=".35"/>
     </pattern>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".07"/>
+      <stop offset=".4" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <!-- copper / gold -->
+    <linearGradient id="copper" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c8833f"/>
+      <stop offset="1" stop-color="#e2a35a"/>
+    </linearGradient>
+    <radialGradient id="gold" cx="35%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#fff1b8"/>
+      <stop offset=".45" stop-color="#e9c15a"/>
+      <stop offset="1" stop-color="#a97b22"/>
+    </radialGradient>
+    <linearGradient id="pin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c27a"/>
+      <stop offset="1" stop-color="#b8782f"/>
+    </linearGradient>
+    <!-- chip -->
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a3d44"/>
+      <stop offset=".5" stop-color="#25272c"/>
+      <stop offset="1" stop-color="#18191d"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dfece6"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textShadow" x="-5%" y="-20%" width="110%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#04211a" flood-opacity=".6"/>
+    </filter>
+
+    <!-- trace paths (reused for animated signals) -->
+    <path id="tIn"  d="M62 210 H507 L547 170 H565"/>
+    <path id="tFw"  d="M655 108 H684 L728 63 H771"/>
+    <path id="tCl"  d="M655 130 H704 L720 114 H771"/>
+    <path id="tDb"  d="M655 151 H708 L722 165 H771"/>
+    <path id="tMb"  d="M655 172 H684 L728 216 H771"/>
+
     <style>
-      .silk{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#F2F0E6}
-      .mono{font-family:ui-monospace,'SFMono-Regular',Consolas,'DejaVu Sans Mono',monospace}
-      .trace{fill:none;stroke:#C98A4B;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
-      .pulse{fill:#FFE7A8;opacity:0;animation:run 3.6s ease-in-out infinite}
-      .p1{offset-path:path('M880 130 H920 L980 70 H1030')}
-      .p2{offset-path:path('M880 160 H940 L960 140 H1030');animation-delay:.45s}
-      .p3{offset-path:path('M880 190 H940 L960 210 H1030');animation-delay:.9s}
-      .p4{offset-path:path('M880 220 H920 L980 280 H1030');animation-delay:1.35s}
-      .p0{offset-path:path('M760 215 H735 L680 270 H70');animation-name:runback;animation-duration:3.6s}
-      @keyframes run{0%{offset-distance:0%;opacity:0}8%{opacity:1}55%{offset-distance:100%;opacity:1}62%,100%{offset-distance:100%;opacity:0}}
-      @keyframes runback{0%{offset-distance:0%;opacity:0}6%{opacity:.9}70%{offset-distance:100%;opacity:.9}76%,100%{offset-distance:100%;opacity:0}}
-      @media (prefers-reduced-motion: reduce){.pulse{animation:none;opacity:0}}
+      .sans { font-family: 'Segoe UI', 'Inter', -apple-system, BlinkMacSystemFont, Roboto, 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .trace { fill: none; stroke: url(#copper); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .traceUnder { fill: none; stroke: #062a1f; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; opacity: .55; }
+      .silk { fill: #cfe7dc; opacity: .55; }
+      .label { fill: #f4f7f5; font-weight: 600; font-size: 13.5px; letter-spacing: .2px; }
+      @media (prefers-reduced-motion: reduce) { .sig { display: none; } }
     </style>
   </defs>
 
+  <!-- page background -->
+  <rect width="900" height="277" fill="#0d1117"/>
+
   <!-- board -->
-  <rect x="2" y="2" width="1196" height="336" rx="22" fill="#123F36" stroke="#0C2E27" stroke-width="4"/>
-  <rect x="2" y="2" width="1196" height="336" rx="22" fill="url(#grid)"/>
-  <g fill="#0A221D" stroke="#D9B45A" stroke-width="3">
-    <circle cx="34" cy="34" r="9"/><circle cx="1166" cy="34" r="9"/>
-    <circle cx="34" cy="306" r="9"/><circle cx="1166" cy="306" r="9"/>
+  <g filter="url(#shadow)">
+    <rect x="12" y="12" width="876" height="253" rx="18" fill="url(#mask)"/>
+  </g>
+  <rect x="12" y="12" width="876" height="253" rx="18" fill="url(#grid)"/>
+  <rect x="12" y="12" width="876" height="253" rx="18" fill="url(#sheen)"/>
+  <rect x="13" y="13" width="874" height="251" rx="17" fill="none" stroke="#2c7a5b" stroke-width="1.5" opacity=".9"/>
+  <rect x="22" y="22" width="856" height="233" rx="12" fill="none" stroke="#cfe7dc" stroke-width=".8" stroke-dasharray="2 5" opacity=".18"/>
+
+  <!-- mounting holes -->
+  <g>
+    <g transform="translate(36 38)"><circle r="7.5" fill="url(#gold)"/><circle r="4" fill="#0b2e23"/></g>
+    <g transform="translate(862 38)"><circle r="7.5" fill="url(#gold)"/><circle r="4" fill="#0b2e23"/></g>
+    <g transform="translate(36 237)"><circle r="7.5" fill="url(#gold)"/><circle r="4" fill="#0b2e23"/></g>
+    <g transform="translate(862 237)"><circle r="7.5" fill="url(#gold)"/><circle r="4" fill="#0b2e23"/></g>
   </g>
 
-  <!-- identity -->
-  <text class="silk" x="70" y="132" font-size="58" font-weight="700" letter-spacing="-1">Loujein Bousnina</text>
-  <text class="silk" x="72" y="180" font-size="24" font-weight="600" fill="#D9B45A" style="fill:#D9B45A">Full-Stack IoT Engineer at RondeGuard</text>
-  <text class="silk" x="72" y="222" font-size="18" opacity=".78">I design the board, write the firmware, and ship the cloud and apps.</text>
-
-  <!-- trace back to the name -->
-  <path class="trace" d="M760 215 H735 L680 270 H70" opacity=".85"/>
-  <circle cx="70" cy="270" r="7" fill="#0A221D" stroke="#D9B45A" stroke-width="3"/>
-  <text class="silk mono" x="88" y="300" font-size="13" opacity=".55">Tunis, TN</text>
-  <text class="silk mono" x="180" y="300" font-size="13" opacity=".55">ESPRIT SLEAM 2026</text>
-
-  <!-- outbound traces -->
-  <path class="trace" d="M880 130 H920 L980 70 H1030"/>
-  <path class="trace" d="M880 160 H940 L960 140 H1030"/>
-  <path class="trace" d="M880 190 H940 L960 210 H1030"/>
-  <path class="trace" d="M880 220 H920 L980 280 H1030"/>
-
-  <g fill="#D9B45A">
-    <circle cx="1040" cy="70" r="11"/><circle cx="1040" cy="140" r="11"/>
-    <circle cx="1040" cy="210" r="11"/><circle cx="1040" cy="280" r="11"/>
-  </g>
-  <g fill="#123F36"><circle cx="1040" cy="70" r="4"/><circle cx="1040" cy="140" r="4"/><circle cx="1040" cy="210" r="4"/><circle cx="1040" cy="280" r="4"/></g>
-  <g class="silk" font-size="17" font-weight="600">
-    <text x="1062" y="76">firmware</text>
-    <text x="1062" y="146">cloud</text>
-    <text x="1062" y="216">dashboard</text>
-    <text x="1062" y="286">mobile</text>
+  <!-- decorative vias -->
+  <g fill="#c8933f" opacity=".55">
+    <circle cx="470" cy="60" r="2.4"/><circle cx="484" cy="60" r="2.4"/>
+    <circle cx="700" cy="245" r="2.4"/><circle cx="714" cy="245" r="2.4"/>
+    <circle cx="820" cy="140" r="2.4"/>
   </g>
 
-  <!-- ESP32 footprint -->
-  <g fill="#C98A4B">
-    <rect x="880" y="124" width="14" height="12" rx="2"/><rect x="880" y="154" width="14" height="12" rx="2"/>
-    <rect x="880" y="184" width="14" height="12" rx="2"/><rect x="880" y="214" width="14" height="12" rx="2"/>
-    <rect x="746" y="124" width="14" height="12" rx="2"/><rect x="746" y="154" width="14" height="12" rx="2"/>
-    <rect x="746" y="184" width="14" height="12" rx="2"/><rect x="746" y="209" width="14" height="12" rx="2"/>
-    <rect x="784" y="96" width="12" height="14" rx="2"/><rect x="814" y="96" width="12" height="14" rx="2"/><rect x="844" y="96" width="12" height="14" rx="2"/>
-    <rect x="784" y="230" width="12" height="14" rx="2"/><rect x="814" y="230" width="12" height="14" rx="2"/><rect x="844" y="230" width="12" height="14" rx="2"/>
+  <!-- text -->
+  <g class="sans">
+    <text x="62" y="110" font-size="38" font-weight="700" fill="url(#nameGrad)" letter-spacing="-.3" filter="url(#textShadow)">Loujein Bousnina</text>
+    <text x="64" y="143" font-size="18" font-weight="600" fill="#e9c15a" letter-spacing=".1">Full-Stack IoT Engineer at RondeGuard</text>
+    <rect x="64" y="153" width="44" height="2" rx="1" fill="#e9c15a" opacity=".55"/>
+    <text x="64" y="177" font-size="14" fill="#c9ddd4">I design the board, write the firmware, and ship the cloud and apps.</text>
   </g>
-  <rect x="760" y="110" width="120" height="120" rx="6" fill="#1E2428" stroke="#2E363B" stroke-width="2"/>
-  <circle cx="776" cy="126" r="4" fill="#3A444A"/>
-  <text class="silk mono" x="820" y="176" font-size="18" font-weight="700" text-anchor="middle" opacity=".9">ESP32</text>
-  <text class="silk mono" x="820" y="198" font-size="11" text-anchor="middle" opacity=".5">WROOM</text>
-  <text class="silk mono" x="760" y="86" font-size="13" opacity=".6">U1</text>
 
-  <!-- signal pulses -->
-  <circle class="pulse p1" r="5"/><circle class="pulse p2" r="5"/>
-  <circle class="pulse p3" r="5"/><circle class="pulse p4" r="5"/>
-  <circle class="pulse p0" r="4"/>
+  <!-- traces -->
+  <g>
+    <use href="#tIn" class="traceUnder"/><use href="#tFw" class="traceUnder"/><use href="#tCl" class="traceUnder"/><use href="#tDb" class="traceUnder"/><use href="#tMb" class="traceUnder"/>
+    <use href="#tIn" class="trace"/><use href="#tFw" class="trace"/><use href="#tCl" class="trace"/><use href="#tDb" class="trace"/><use href="#tMb" class="trace"/>
+  </g>
+
+  <!-- trace start pad -->
+  <g transform="translate(62 210)"><circle r="6" fill="url(#gold)"/><circle r="2.4" fill="#0b2e23"/></g>
+
+  <!-- silkscreen footer -->
+  <g class="mono silk" font-size="10" letter-spacing="1">
+    <text x="76" y="232">TUNIS, TN</text>
+    <text x="146" y="232" opacity=".6">·</text>
+    <text x="158" y="232">ESPRIT SLEAM 2026</text>
+  </g>
+
+  <!-- ESP32 chip -->
+  <g>
+    <text x="566" y="77" class="mono silk" font-size="10" letter-spacing="1">U1</text>
+    <!-- pins -->
+    <g fill="url(#pin)">
+      <rect x="575" y="82" width="7" height="11" rx="1.5"/><rect x="595" y="82" width="7" height="11" rx="1.5"/>
+      <rect x="615" y="82" width="7" height="11" rx="1.5"/><rect x="635" y="82" width="7" height="11" rx="1.5"/>
+      <rect x="575" y="183" width="7" height="11" rx="1.5"/><rect x="595" y="183" width="7" height="11" rx="1.5"/>
+      <rect x="615" y="183" width="7" height="11" rx="1.5"/><rect x="635" y="183" width="7" height="11" rx="1.5"/>
+      <rect x="555" y="105" width="11" height="7" rx="1.5"/><rect x="555" y="126" width="11" height="7" rx="1.5"/>
+      <rect x="555" y="147" width="11" height="7" rx="1.5"/><rect x="555" y="167" width="11" height="7" rx="1.5"/>
+      <rect x="654" y="105" width="11" height="7" rx="1.5"/><rect x="654" y="126" width="11" height="7" rx="1.5"/>
+      <rect x="654" y="147" width="11" height="7" rx="1.5"/><rect x="654" y="168" width="11" height="7" rx="1.5"/>
+    </g>
+    <rect x="565" y="93" width="90" height="90" rx="8" fill="url(#chip)" filter="url(#shadow)"/>
+    <rect x="565.5" y="93.5" width="89" height="89" rx="7.5" fill="none" stroke="#5a5e68" stroke-width="1" opacity=".7"/>
+    <rect x="571" y="99" width="78" height="38" rx="5" fill="#fff" opacity=".04"/>
+    <circle cx="578" cy="105" r="3.2" fill="#0f1013" stroke="#4a4d55" stroke-width=".8"/>
+    <text x="610" y="141" text-anchor="middle" class="sans" font-size="15" font-weight="700" fill="#eef1f3" letter-spacing=".5">ESP32</text>
+    <text x="610" y="158" text-anchor="middle" class="mono" font-size="8.5" fill="#8b9099" letter-spacing="2">WROOM</text>
+    <!-- status LED -->
+    <circle cx="642" cy="172" r="2.4" fill="#5ef0a8" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;.25;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- junction nodes -->
+  <g fill="#fff1b8" filter="url(#glow)">
+    <circle cx="507" cy="210" r="3"/>
+    <circle cx="684" cy="108" r="3"/>
+    <circle cx="657" cy="130" r="3"/>
+  </g>
+
+  <!-- endpoint pads + labels -->
+  <g>
+    <g transform="translate(771 63)"><circle r="8" fill="url(#gold)"/><circle r="3.2" fill="#0b2e23"/></g>
+    <g transform="translate(771 114)"><circle r="8" fill="url(#gold)"/><circle r="3.2" fill="#0b2e23"/></g>
+    <g transform="translate(771 165)"><circle r="8" fill="url(#gold)"/><circle r="3.2" fill="#0b2e23"/></g>
+    <g transform="translate(771 216)"><circle r="8" fill="url(#gold)"/><circle r="3.2" fill="#0b2e23"/></g>
+  </g>
+  <g class="sans label">
+    <text x="788" y="68">firmware</text>
+    <text x="788" y="119">cloud</text>
+    <text x="788" y="170">dashboard</text>
+    <text x="788" y="221">mobile</text>
+  </g>
+
+  <!-- animated signals -->
+  <g class="sig" fill="#fff6cf" filter="url(#glow)">
+    <circle r="2.6"><animateMotion dur="3.2s" repeatCount="indefinite" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .6 1"><mpath href="#tIn"/></animateMotion></circle>
+    <circle r="2.4" opacity="0"><animateMotion dur="1.6s" begin="3.2s;fw.end+1.6s" id="fw" fill="freeze"><mpath href="#tFw"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" dur="1.6s" begin="3.2s;fw.end+1.6s" fill="freeze"/></circle>
+    <circle r="2.4" opacity="0"><animateMotion dur="1.6s" begin="3.4s;cl.end+1.6s" id="cl" fill="freeze"><mpath href="#tCl"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" dur="1.6s" begin="3.4s;cl.end+1.6s" fill="freeze"/></circle>
+    <circle r="2.4" opacity="0"><animateMotion dur="1.6s" begin="3.6s;db.end+1.6s" id="db" fill="freeze"><mpath href="#tDb"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" dur="1.6s" begin="3.6s;db.end+1.6s" fill="freeze"/></circle>
+    <circle r="2.4" opacity="0"><animateMotion dur="1.6s" begin="3.8s;mb.end+1.6s" id="mb" fill="freeze"><mpath href="#tMb"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" dur="1.6s" begin="3.8s;mb.end+1.6s" fill="freeze"/></circle>
+  </g>
 </svg>
