@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="277" viewBox="0 0 900 277" role="img" aria-labelledby="t d">
   <title id="t">Loujein Bousnina — Full-Stack IoT Engineer at RondeGuard</title>
-  <desc id="d">PCB-style banner: an ESP32 chip routing signals to firmware, cloud, dashboard and mobile.</desc>
+  <desc id="d">PCB-style banner: an ESP32 chip routing signals to firmware, cloud, web and mobile.</desc>
   <defs>
     <!-- solder mask -->
     <radialGradient id="mask" cx="30%" cy="35%" r="85%">
@@ -114,9 +114,9 @@
 
   <!-- silkscreen footer -->
   <g class="mono silk" font-size="10" letter-spacing="1">
-    <text x="76" y="232">TUNIS, TN</text>
-    <text x="146" y="232" opacity=".6">·</text>
-    <text x="158" y="232">ESPRIT SLEAM 2026</text>
+    <text x="76" y="232">TUNIS</text>
+    <text x="116" y="232" opacity=".6">·</text>
+    <text x="128" y="232">ESPRIT SLEAM 2026</text>
   </g>
 
   <!-- ESP32 chip -->
@@ -162,7 +162,7 @@
   <g class="sans label">
     <text x="788" y="68">firmware</text>
     <text x="788" y="119">cloud</text>
-    <text x="788" y="170">dashboard</text>
+    <text x="788" y="170">web</text>
     <text x="788" y="221">mobile</text>
   </g>
 
