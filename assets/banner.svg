@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="277" viewBox="0 0 900 277" role="img" aria-labelledby="t d">
-  <title id="t">Loujein Bousnina — Full-Stack IoT Engineer at RondeGuard</title>
+  <title id="t">Loujein Bousnina — Full-Stack IoT Engineer</title>
   <desc id="d">PCB-style banner: an ESP32 chip routing signals to firmware, cloud, web and mobile.</desc>
   <defs>
     <!-- solder mask -->
@@ -98,7 +98,7 @@
   <!-- text -->
   <g class="sans">
     <text x="62" y="110" font-size="38" font-weight="700" fill="url(#nameGrad)" letter-spacing="-.3" filter="url(#textShadow)">Loujein Bousnina</text>
-    <text x="64" y="143" font-size="18" font-weight="600" fill="#e9c15a" letter-spacing=".1">Full-Stack IoT Engineer at RondeGuard</text>
+    <text x="64" y="143" font-size="18" font-weight="600" fill="#e9c15a" letter-spacing=".1">Full-Stack IoT Engineer</text>
     <rect x="64" y="153" width="44" height="2" rx="1" fill="#e9c15a" opacity=".55"/>
     <text x="64" y="177" font-size="14" fill="#c9ddd4">I design the board, write the firmware, and ship the cloud and apps.</text>
   </g>
@@ -112,12 +112,6 @@
   <!-- trace start pad -->
   <g transform="translate(62 210)"><circle r="6" fill="url(#gold)"/><circle r="2.4" fill="#0b2e23"/></g>
 
-  <!-- silkscreen footer -->
-  <g class="mono silk" font-size="10" letter-spacing="1">
-    <text x="76" y="232">TUNIS</text>
-    <text x="116" y="232" opacity=".6">·</text>
-    <text x="128" y="232">ESPRIT SLEAM 2026</text>
-  </g>
 
   <!-- ESP32 chip -->
   <g>
