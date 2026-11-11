@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/banner.svg" alt="Loujein Bousnina, Full-Stack IoT Engineer at RondeGuard. An ESP32 routes traces to firmware, cloud, dashboard and mobile." width="100%" />
+<img src="assets/banner.svg" alt="Loujein Bousnina, Full-Stack IoT Engineer at RondeGuard. An ESP32 routes traces to firmware, cloud, web and mobile." width="100%" />
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 <sub><b>PCB&nbsp;&nbsp;·&nbsp;&nbsp;FIRMWARE&nbsp;&nbsp;·&nbsp;&nbsp;CONNECTIVITY&nbsp;&nbsp;·&nbsp;&nbsp;CLOUD&nbsp;&nbsp;·&nbsp;&nbsp;WEB&nbsp;&nbsp;·&nbsp;&nbsp;MOBILE</b></sub>
 </p>
 
-I'm an engineer graduated from **ESPRIT** with a National Engineering Degree in Ambient and Mobile Embedded Systems (SLEAM). Motivated and passionate about technology, embedded systems and innovation, I love turning ideas into connected products, from the PCB and firmware to the cloud and the apps people use every day. Today I'm a Full-Stack IoT Engineer at **RondeGuard**.
+I'm an engineer graduated from **ESPRIT** with a National Engineering Degree in Ambient and Mobile Embedded Systems (SLEAM). Motivated and passionate about technology, embedded systems and innovation, I love turning ideas into connected products, from the PCB and firmware to the cloud and the apps people use every day.
 
 <br/>
 
