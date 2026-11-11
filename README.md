@@ -69,10 +69,3 @@ A RondeGuard product for fire extinguisher management: inventory, NFC and barcod
   <img src="https://img.shields.io/badge/Linux-123F36?style=flat-square&logo=linux&logoColor=D9B45A" alt="Linux" />
   <img src="https://img.shields.io/badge/Jenkins-123F36?style=flat-square&logo=jenkins&logoColor=D9B45A" alt="Jenkins" />
 </p>
-
-## Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=bousnina-loujein&show_icons=true&count_private=true&hide_border=true&border_radius=14&bg_color=123F36&title_color=D9B45A&text_color=F2F0E6&icon_color=C98A4B" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bousnina-loujein&layout=compact&hide_border=true&border_radius=14&bg_color=123F36&title_color=D9B45A&text_color=F2F0E6" alt="Top languages" />
-</p>
