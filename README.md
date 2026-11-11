@@ -1,102 +1,78 @@
-<h1 align="center">Hi, I'm Loujein Bousnina 👋</h1>
-<h3 align="center">Full-Stack IoT Engineer · Embedded Systems · Connected Products end to end</h3>
+<p align="center">
+  <img src="assets/banner.svg" alt="Loujein Bousnina, Full-Stack IoT Engineer at RondeGuard. An ESP32 routes traces to firmware, cloud, dashboard and mobile." width="100%" />
+</p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/loujein-bousnina/"><img src="https://img.shields.io/badge/LinkedIn-loujein--bousnina-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:majdoub.loujein1211@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Based%20in-Tunis%2C%20Tunisia-E70013?style=for-the-badge" />
+  <a href="https://www.linkedin.com/in/loujein-bousnina/"><img src="https://img.shields.io/badge/LinkedIn-loujein--bousnina-123F36?style=for-the-badge&logo=linkedin&logoColor=D9B45A&labelColor=0C2E27" alt="LinkedIn" /></a>
+  <a href="mailto:majdoub.loujein1211@gmail.com"><img src="https://img.shields.io/badge/Email-Write%20to%20me-123F36?style=for-the-badge&logo=gmail&logoColor=D9B45A&labelColor=0C2E27" alt="Email" /></a>
 </p>
 
----
+I build connected products from the copper up. At **RondeGuard** I own the whole chain: the ESP32 terminal and its PCB, the secure MQTT link, the Node.js backend, the supervisor dashboard and the agent app. I graduated from **ESPRIT** in 2026 with a National Engineering Degree in Ambient and Mobile Embedded Systems (SLEAM).
 
-## 🧠 About me
+## What I'm building
 
-I build connected systems **end to end** — from custom ESP32 hardware and firmware to secure cloud backends, web dashboards and mobile apps.
-
-- 🛡️ **Full-Stack IoT Engineer at RondeGuard** (since Feb 2026) — a security patrol management SaaS that started as my end-of-studies project at **Maker Skills**
-- 🎓 **National Engineering Degree, SLEAM** (Ambient & Mobile Embedded Systems and Software) — **ESPRIT**, 2026
-- 🔌 Hardware ↔ firmware ↔ cloud ↔ app: I like owning the whole chain, PCB included
-- 💬 Ask me about: ESP32, MQTT over TLS, NFC/RFID, offline-first mobile, PCB design in Altium
-
----
-
-## 🚀 Featured work
-
-### 🛡️ RondeGuard — Security patrol traceability platform *(production, private)*
-Intelligent traceability and real-time supervision of security rounds using RFID/NFC.
-- ESP32 field terminal with NFC checkpoint scanning, GSM (SIM800L) connectivity and a **custom PCB (Altium Designer)**
-- **Secure MQTT** (EMQX Cloud, TLS 8883, NVS-stored credentials) → Node.js/Express + MongoDB backend, **Docker Compose + Nginx** on a VPS
-- React/TypeScript supervisor dashboard with **Leaflet live map** and Socket.IO tracking
-- Flutter agent app: SOS, man-down detection (MPU6050), FCM push, offline-first operation
-
-### 🧯 FireTrack by RondeGuard *(private)*
-Fire extinguisher management platform — inventory, NFC/barcode-verified inspections, due-date tracking, defects and a digital fire safety log. **MERN + TypeScript**.
-
-### 🚆 SNCFT Smart Train Tracking — internship at SNCFT (2025)
-Real-time train localization with GPS + IoT, built as a full system across repos:
-| Layer | Repository |
-|---|---|
-| 📱 Mobile app (Flutter) | [SNCFT-Tracker](https://github.com/bousnina-loujein/SNCFT-Tracker) |
-| 🖥️ Web dashboard (Flutter Web) | [sncft-web-dashboard](https://github.com/bousnina-loujein/sncft-web-dashboard) |
-| 🔐 Backend API (NestJS) | [sncft-backend-api](https://github.com/bousnina-loujein/sncft-backend-api) |
-| 📡 IoT firmware + Node-RED flows | [sncft-iot-testing](https://github.com/bousnina-loujein/sncft-iot-testing) |
-| 🧩 ESP32 PCB design | [sncft-pcb-design](https://github.com/bousnina-loujein/sncft-pcb-design) |
-| 📶 GPS patch antenna (CST) | [sncft_AntenneGps_CST](https://github.com/bousnina-loujein/sncft_AntenneGps_CST) |
-| 🤖 Predictive model (TensorFlow) | [sncft-smart-model](https://github.com/bousnina-loujein/sncft-smart-model) |
-
-### 🧤 Smart Health Glove — wearable for rehabilitation
-Sensor-equipped glove with a custom antenna and a companion app for real-time hand-movement visualization and analytics → [smart_health_glove_mobileApp](https://github.com/bousnina-loujein/smart_health_glove_mobileApp)
-
-### 💧 WaterSec — smart water management (ESPRIT integrated project)
-Custom ESP32 + GSM/SD PCB for field deployment, **LSTM models at 85% accuracy** for leak and contamination detection, ~30% less water waste in lab tests.
-
----
-
-## ⚙️ Tech stack
-
-**Embedded & hardware**
-<p>
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" />
-  <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" />
-  <img src="https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white" />
-  <img src="https://img.shields.io/badge/PIC-MikroC-555555?style=flat-square" />
-  <img src="https://img.shields.io/badge/Altium%20Designer-A5915F?style=flat-square&logo=altiumdesigner&logoColor=white" />
-  <img src="https://img.shields.io/badge/NFC%20%2F%20RFID-1F6FEB?style=flat-square" />
-  <img src="https://img.shields.io/badge/CST%20Studio-antenna-6E40C9?style=flat-square" />
-</p>
-
-**Languages**
-<p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,ts,js,dart,python,java" />
-</p>
-
-**IoT & cloud**
-<p>
-  <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white" />
-  <img src="https://img.shields.io/badge/EMQX-00B173?style=flat-square" />
-  <img src="https://img.shields.io/badge/Node--RED-8F0000?style=flat-square&logo=nodered&logoColor=white" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-</p>
-
-**Backend, web & mobile**
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,react,flutter,mongodb,spring" />
-</p>
-
-**DevOps & tools**
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,nginx,linux,git,jenkins,vscode" />
-</p>
-
----
-
-## 📊 GitHub stats
+### RondeGuard
+Security patrol traceability: guards scan NFC checkpoints on their rounds, and supervisors follow every round live. It started as my end-of-studies project at Maker Skills and now runs in production.
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=bousnina-loujein&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bousnina-loujein&layout=compact&hide_border=true&theme=tokyonight" />
+  <img src="assets/rondeguard.svg" alt="RondeGuard architecture: field terminal to EMQX broker to Node.js API and MongoDB, feeding the React dashboard and the Flutter agent app." width="100%" />
 </p>
 
----
+Under the hood: TLS credentials stored in ESP32 NVS, GSM fallback through a SIM800L, man-down detection from an MPU6050, and an agent app that keeps working offline.
 
-<p align="center"><i>Innovation starts where hardware meets software.</i></p>
+### FireTrack
+A RondeGuard product for fire extinguisher management: inventory, NFC and barcode-verified inspections, due-date tracking, defect reports and a digital fire safety log. Built with MongoDB, Express, React and Node in TypeScript.
+
+## Selected projects
+
+| Project | What it does | Built with |
+|:--|:--|:--|
+| **SNCFT train tracking**<br/><sub>Internship at SNCFT, 2025</sub> | Real-time GPS localization of trains, from a custom antenna to the passenger app. Split across [app](https://github.com/bousnina-loujein/SNCFT-Tracker), [dashboard](https://github.com/bousnina-loujein/sncft-web-dashboard), [API](https://github.com/bousnina-loujein/sncft-backend-api), [firmware](https://github.com/bousnina-loujein/sncft-iot-testing), [PCB](https://github.com/bousnina-loujein/sncft-pcb-design), [antenna](https://github.com/bousnina-loujein/sncft_AntenneGps_CST) and [model](https://github.com/bousnina-loujein/sncft-smart-model). | ESP32, Node-RED, NestJS, Flutter, TensorFlow, CST |
+| **[Smart Health Glove](https://github.com/bousnina-loujein/smart_health_glove_mobileApp)**<br/><sub>ESPRIT, 2025</sub> | A sensor glove for rehabilitation, with a custom antenna and an app that visualizes hand movement in real time. | C++, embedded sensors, mobile |
+| **WaterSec**<br/><sub>ESPRIT integrated project, 2025</sub> | Leak and contamination detection for water networks. LSTM models reached 85% accuracy and cut water waste by about 30% in lab tests. | ESP32, GSM, custom PCB, LSTM, Flutter |
+
+## Toolbox
+
+<p>
+  <b>Hardware and firmware</b><br/>
+  <img src="https://img.shields.io/badge/ESP32-123F36?style=flat-square&logo=espressif&logoColor=D9B45A" alt="ESP32" />
+  <img src="https://img.shields.io/badge/STM32-123F36?style=flat-square&logo=stmicroelectronics&logoColor=D9B45A" alt="STM32" />
+  <img src="https://img.shields.io/badge/C%2FC%2B%2B-123F36?style=flat-square&logo=cplusplus&logoColor=D9B45A" alt="C/C++" />
+  <img src="https://img.shields.io/badge/Arduino-123F36?style=flat-square&logo=arduino&logoColor=D9B45A" alt="Arduino" />
+  <img src="https://img.shields.io/badge/Altium%20Designer-123F36?style=flat-square&logo=altiumdesigner&logoColor=D9B45A" alt="Altium Designer" />
+  <img src="https://img.shields.io/badge/NFC%20%2F%20RFID-123F36?style=flat-square" alt="NFC / RFID" />
+</p>
+
+<p>
+  <b>Connectivity</b><br/>
+  <img src="https://img.shields.io/badge/MQTT-123F36?style=flat-square&logo=mqtt&logoColor=D9B45A" alt="MQTT" />
+  <img src="https://img.shields.io/badge/EMQX-123F36?style=flat-square" alt="EMQX" />
+  <img src="https://img.shields.io/badge/Node--RED-123F36?style=flat-square&logo=nodered&logoColor=D9B45A" alt="Node-RED" />
+  <img src="https://img.shields.io/badge/Firebase-123F36?style=flat-square&logo=firebase&logoColor=D9B45A" alt="Firebase" />
+</p>
+
+<p>
+  <b>Backend, web and mobile</b><br/>
+  <img src="https://img.shields.io/badge/Node.js-123F36?style=flat-square&logo=nodedotjs&logoColor=D9B45A" alt="Node.js" />
+  <img src="https://img.shields.io/badge/NestJS-123F36?style=flat-square&logo=nestjs&logoColor=D9B45A" alt="NestJS" />
+  <img src="https://img.shields.io/badge/TypeScript-123F36?style=flat-square&logo=typescript&logoColor=D9B45A" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-123F36?style=flat-square&logo=react&logoColor=D9B45A" alt="React" />
+  <img src="https://img.shields.io/badge/Flutter-123F36?style=flat-square&logo=flutter&logoColor=D9B45A" alt="Flutter" />
+  <img src="https://img.shields.io/badge/MongoDB-123F36?style=flat-square&logo=mongodb&logoColor=D9B45A" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-123F36?style=flat-square&logo=springboot&logoColor=D9B45A" alt="Spring Boot" />
+</p>
+
+<p>
+  <b>Deployment</b><br/>
+  <img src="https://img.shields.io/badge/Docker-123F36?style=flat-square&logo=docker&logoColor=D9B45A" alt="Docker" />
+  <img src="https://img.shields.io/badge/Nginx-123F36?style=flat-square&logo=nginx&logoColor=D9B45A" alt="Nginx" />
+  <img src="https://img.shields.io/badge/Linux-123F36?style=flat-square&logo=linux&logoColor=D9B45A" alt="Linux" />
+  <img src="https://img.shields.io/badge/Jenkins-123F36?style=flat-square&logo=jenkins&logoColor=D9B45A" alt="Jenkins" />
+</p>
+
+## Activity
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=bousnina-loujein&show_icons=true&count_private=true&hide_border=true&border_radius=14&bg_color=123F36&title_color=D9B45A&text_color=F2F0E6&icon_color=C98A4B" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bousnina-loujein&layout=compact&hide_border=true&border_radius=14&bg_color=123F36&title_color=D9B45A&text_color=F2F0E6" alt="Top languages" />
+</p>
